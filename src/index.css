@@ -99,15 +99,15 @@ body{
 
 .email-button,
 .linkedin-button{
-  width: 90%;
-  max-width: 170px;
+  width: 110%;
+  max-width: 200px;
   text-align: center;
   border: none;
   border-radius: 5px;
   font-size: 16px;
   display: flex;
   gap: 5px;
-  height: 30px;
+  height: 40px;
   justify-content: center;
   align-items: center;
 }
@@ -167,6 +167,6 @@ body{
 
   .email-button,
   .linkedin-button{
-    width: 100px;
+    width: 150px;
   }
 }
