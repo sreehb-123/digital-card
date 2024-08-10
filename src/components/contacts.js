@@ -1,0 +1,22 @@
+import React from "react";
+import twitterIcon from "../images/Twitter Icon.png"
+import instaIcon from "../images/Instagram Icon.png"
+import githubIcon from "../images/GitHub Icon.png"
+
+export default function Contacts() {
+    return(
+        <div className="contacts-container">
+            <nav>
+                <a href="https://x.com/achiever1926" target="_blank">
+                    <img src={twitterIcon}/>
+                </a>                
+                <a href="https://www.instagram.com/sreehb_123/" target="_blank">
+                    <img src={instaIcon}/>
+                </a>
+                <a href="https://github.com/sreehb-123/" target="_blank">
+                    <img src={githubIcon}/>
+                </a>
+            </nav>
+        </div>
+    )
+}

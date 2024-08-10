@@ -1,0 +1,172 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: #23252C;
+  color: white;
+  font-family: "Inter", sans-serif;
+}
+
+.intro-text h1,h3,a{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.app-container{
+  width: 90%;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.header-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1A1B21;
+  padding-top: 5px;
+}
+
+.header-buttons{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  padding-top: 10px;  
+}
+
+.email-button{
+  background-color: white;
+  color: black;
+}
+
+.email-button a,
+.email-button img{
+  background-color: white;
+  color: black;
+}
+
+.linkedin-button{
+  background-color: #5093E2;
+  color: white;
+}
+
+.linkedin-button a,
+.linkedin-button img{
+  background-color: #5093E2;
+  color: white;
+}
+
+.email-button,
+.linkedin-button{
+  width: 115px;
+}
+
+.contacts-container nav{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about h2,
+.interests h2{
+  width: 317px;
+  margin: 0 auto;
+  padding-bottom: 10px;
+}
+
+.about,
+.interests{
+  padding: 10px 20px;
+  background-color: #1A1B21;
+}
+
+.about p,
+.interests p{
+  width: 317px;
+  margin: 0 auto;
+}
+
+.contacts-container nav{
+  gap: 30px;
+}
+
+.email-button,
+.linkedin-button{
+  width: 90%;
+  max-width: 100px;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  gap: 5px;
+  height: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.potrait{
+  border-radius: 5%;
+  width: 100%;
+  max-width: 317px;
+}
+
+.contacts-container{
+  background-color: #161619;
+  padding: 9px 9px;
+}
+
+.header-container,
+.content-container{
+  background-color: #1A1B21;
+}
+
+.website{
+  padding-top: 5px;
+  font-size: 10px;
+}
+
+.web-dev{
+  color: #F3BF99;
+  font-size: 20px;
+}
+
+.intro-text h1{
+  padding-top: 5px;
+}
+
+.header-buttons a,
+.contacts-container a{
+  text-decoration: none;
+}
+
+.header-buttons a :hover{
+  cursor: pointer;
+}
+
+.about p,
+.interests p{
+  font-size: 15px;
+}
+
+.email-button a{
+  color: #374151;
+}
+
+@media (min-width: 768px) {
+  .header-buttons{
+    flex-direction: row;
+  }
+
+  .email-button,
+  .linkedin-button{
+    width: 100px;
+  }
+}
