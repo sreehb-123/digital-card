@@ -100,7 +100,7 @@ body{
 .email-button,
 .linkedin-button{
   width: 90%;
-  max-width: 100px;
+  max-width: 150px;
   text-align: center;
   border: none;
   border-radius: 5px;
@@ -167,6 +167,6 @@ body{
 
   .email-button,
   .linkedin-button{
-    width: 100px;
+    width: 150px;
   }
 }
