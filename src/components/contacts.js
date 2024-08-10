@@ -7,13 +7,13 @@ export default function Contacts() {
     return(
         <div className="contacts-container">
             <nav>
-                <a href="https://x.com/achiever1926" target="_blank">
+                <a href="https://x.com/achiever1926" target="_blank" rel="noopener noreferrer">
                     <img src={twitterIcon}/>
                 </a>                
-                <a href="https://www.instagram.com/sreehb_123/" target="_blank">
+                <a href="https://www.instagram.com/sreehb_123/" target="_blank" rel="noopener noreferrer">
                     <img src={instaIcon}/>
                 </a>
-                <a href="https://github.com/sreehb-123/" target="_blank">
+                <a href="https://github.com/sreehb-123/" target="_blank" rel="noopener noreferrer">
                     <img src={githubIcon}/>
                 </a>
             </nav>

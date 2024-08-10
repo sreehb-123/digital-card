@@ -13,13 +13,13 @@ export default function Header() {
                 <a className="website">sreeharsha.website</a>
             </div>
             <div className="header-buttons">
-                <a href="mailto:sreeh190206@gmail.com" target="_blank">
+                <a href="mailto:sreeh190206@gmail.com" target="_blank" rel="noopener noreferrer">
                     <button className="email-button">
                         <img src={mailIcon} className="email-icon"/>
                         <a className="button-text">Email</a>
                     </button>
                 </a>
-                <a href="https://www.linkedin.com/in/bolloju-sai-sreeharsha-a3146a294/" target="_blank">
+                <a href="https://www.linkedin.com/in/bolloju-sai-sreeharsha-a3146a294/" target="_blank" rel="noopener noreferrer">
                     <button className="linkedin-button">
                         <img src={linkedinIcon} className="linkedin-icon"/>
                         <a className="button-text">Linkedin</a>
