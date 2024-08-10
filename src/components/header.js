@@ -9,8 +9,10 @@ export default function Header() {
             <img src={potrait} className="potrait" width="317" height="317" alt=""/>
             <div className="intro-text">
                 <h1>Sai Sreeharsha Bolloju</h1>
-                <a className="web-dev">Web Developer</a>
-                <a className="website">sreeharsha.website</a>
+                <span className="web-dev">Web Developer</span>
+                <a href="http://sreeharsha.website" className="website" target="_blank" rel="noopener noreferrer">
+                    sreeharsha.website
+                </a>
             </div>
             <div className="header-buttons">
                 <a href="mailto:sreeh190206@gmail.com" target="_blank" rel="noopener noreferrer" className="email-button">
