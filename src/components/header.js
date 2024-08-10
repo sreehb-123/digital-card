@@ -6,7 +6,7 @@ import mailIcon from "../images/Mail Icon.png"
 export default function Header() {
     return(
         <div className="header-container">
-            <img src={potrait} className="potrait" width="317" height="317"/>
+            <img src={potrait} className="potrait" width="317" height="317" alt=""/>
             <div className="intro-text">
                 <h1>Sai Sreeharsha Bolloju</h1>
                 <a className="web-dev">Web Developer</a>
@@ -15,13 +15,13 @@ export default function Header() {
             <div className="header-buttons">
                 <a href="mailto:sreeh190206@gmail.com" target="_blank" rel="noopener noreferrer">
                     <button className="email-button">
-                        <img src={mailIcon} className="email-icon"/>
+                        <img src={mailIcon} className="email-icon" alt=""/>
                         <a className="button-text">Email</a>
                     </button>
                 </a>
                 <a href="https://www.linkedin.com/in/bolloju-sai-sreeharsha-a3146a294/" target="_blank" rel="noopener noreferrer">
                     <button className="linkedin-button">
-                        <img src={linkedinIcon} className="linkedin-icon"/>
+                        <img src={linkedinIcon} className="linkedin-icon" alt=""/>
                         <a className="button-text">Linkedin</a>
                     </button>   
                 </a>

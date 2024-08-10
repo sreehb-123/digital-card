@@ -8,13 +8,13 @@ export default function Contacts() {
         <div className="contacts-container">
             <nav>
                 <a href="https://x.com/achiever1926" target="_blank" rel="noopener noreferrer">
-                    <img src={twitterIcon}/>
+                    <img src={twitterIcon} alt=""/>
                 </a>                
                 <a href="https://www.instagram.com/sreehb_123/" target="_blank" rel="noopener noreferrer">
-                    <img src={instaIcon}/>
+                    <img src={instaIcon} alt=""/>
                 </a>
                 <a href="https://github.com/sreehb-123/" target="_blank" rel="noopener noreferrer">
-                    <img src={githubIcon}/>
+                    <img src={githubIcon} alt=""/>
                 </a>
             </nav>
         </div>
